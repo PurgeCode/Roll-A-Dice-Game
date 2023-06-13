@@ -21,7 +21,7 @@ btnRoll.addEventListener('click', function () {
 
   //Displaying the Dice
   diceEl.classList.remove('hidden');
-  diceEl.src = `../img/dice-${dice}.png`;
+  diceEl.src = `./img/dice-${dice}.png`;
 
   //Checking if the rolled dice is 1
   if (dice !== 1) {
